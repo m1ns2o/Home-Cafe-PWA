@@ -34,7 +34,7 @@ const MainView = () => {
         <MenuContainer menu="아이스티" cost={2000} count={menuData.icedtea} />
         <MenuContainer menu="아메리카노" cost={2000} count={menuData.americano} />
         <MenuContainer menu="에그타르트" cost={3500} count={menuData.jori} />
-        <MenuContainer menu="치즈타르트트" cost={3000} count={menuData.cookie} />
+        <MenuContainer menu="치즈타르트" cost={3000} count={menuData.cookie} />
       </div>
     </div>
   );

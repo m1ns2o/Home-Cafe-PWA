@@ -1,38 +1,86 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.container {
+  background-color: #f1f2ec;
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  font-family: 'Jua', sans-serif;
+}
+
+.content {
+  padding: 0 40px;
+  max-width: 800px;
+  width: 100%;
+}
+
+.title {
+  font-weight: 600;
+  color: #8a673f;
+  font-size: 50px;
+  letter-spacing: 5px;
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 30px;
+}
+
+.image {
+  width: 100%;
+  height: 300px;
+  object-fit: contain;
+  margin-bottom: 30px;
+}
+
+.divider {
+  height: 3px;
+  background-color: #8a673f;
+  margin-bottom: 20px;
+}
+
+.menuContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+  margin-bottom: 20px;
+}
+
+.menuText {
+  color: #8a673f;
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+
+.countContainer {
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+  margin-bottom: 5px;
+}
+
+.button {
+  background-color: #b9a992;
   color: white;
+  border: none;
+  width: 30px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+.countText {
+  color: #b9a992;
+  font-size: 20px;
+  text-align: center;
+  min-width: 30px;
+  margin: 0 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.costText {
+  color: #b9a992;
+  font-size: 18px;
+  /* padding: auto; */
+  margin-left: auto;
+  display: block;
+  text-align: center; 
 }
